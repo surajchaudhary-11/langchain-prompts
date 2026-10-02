@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nExplain the research paper \"{paper_input}\" with these settings:\n\nExplanation style: {style_input}\nExplanation length: {length_input}\n\nRules:\n1. Explain the main idea and why the paper is important.\n2. Use simple examples where they help.\n3. If you are not sure about a detail, say \"I am not sure\" instead of guessing.\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
